@@ -21,6 +21,9 @@ a:active {
     border-width: 5px;
     border-style: solid;
     display: grid;
+    align-items: stretch;
+    justify-items: center;
+    gap: 25px 5px;
 
 }
 
