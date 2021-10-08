@@ -1,0 +1,12 @@
+/*This is my first CSS style sheet */
+
+h1 {
+    color: crimson
+}
+h2 {
+    color: #ffd700
+   
+}
+h3 { 
+    color: hsl(143, 83%, 50%)
+}
