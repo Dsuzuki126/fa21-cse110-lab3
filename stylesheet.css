@@ -1,5 +1,12 @@
 /*This is my first CSS style sheet */
-
+@media (max-width: 500px) {
+    h1 {
+        font-size: 3em;
+    }
+    li {
+        font-size: 1.5em;
+    }
+}
 
 
 a:active {
@@ -14,11 +21,14 @@ a:active {
     border-width: 5px;
     border-style: solid;
     display: grid;
+
 }
 
 .concerns_comments {
     display: flex;
-
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+    align-items:center;
 }
 
 li:hover {
@@ -37,7 +47,7 @@ h2 {
    
 }
 h3 { 
-    color: hsla(110, 86%, 41%, 0.863)
+    color: hsl(110, 100%, 22%)
 }
 #submit_button {
     display: inline;
@@ -77,3 +87,8 @@ audio {
 #lamenters {
     margin: 2px 5px 15px 100px;
 }
+
+* {
+    font-style: italic;
+}
+
