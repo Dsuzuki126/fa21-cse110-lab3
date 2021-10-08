@@ -10,11 +10,36 @@ h2 {
 h3 { 
     color: hsla(110, 86%, 41%, 0.863)
 }
-#submit_button_prompt {
+#submit_button {
+    display: inline;
     border-style: solid;
-    border-width: 20 px;
+    border-width: 10px;
     border-color:rgb(247, 0, 0);
-    border-radius: 10 cm;
+    border-radius: 10cm;
     text-align: center;
     text-decoration:underline;
+}
+.image {
+    
+    height: 100pt;
+    width: 20vw;
+    min-width: 1in;
+    max-width: 70vmax;
+    border-style: solid;
+    border-width: 2px;
+    border-color:rgb(247, 0, 0);
+    position:relative;
+    top: 20px;
+    left: 500px
+
+}
+audio {
+    display: inline-block;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(247, 0, 0);
+    margin-top: 5px;
+    margin-bottom: 10em;
+    margin-left: 9px;
+    margin-right: 5px;
 }
