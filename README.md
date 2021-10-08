@@ -1,1 +1,1 @@
-URL: https://dsuzuki126.github.io/Lab2/
+URL: https://dsuzuki126.github.io/fa21-cse110-lab3/
