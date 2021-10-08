@@ -10,3 +10,11 @@ h2 {
 h3 { 
     color: hsla(110, 86%, 41%, 0.863)
 }
+#submit_button_prompt {
+    border-style: solid;
+    border-width: 20 px;
+    border-color:rgb(247, 0, 0);
+    border-radius: 10 cm;
+    text-align: center;
+    text-decoration:underline;
+}
